@@ -1,0 +1,27 @@
+{
+    "name": "tilson/md2html-html2md",
+    "description": "Markdown to HTML and HTML to Markdown Conversion package",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "erusev/parsedown": "^1.7",
+        "league/html-to-markdown": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tilson\\Md2htmlHtml2md\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tilson Mateus",
+            "email": "tilsonmat@gmail.com",
+            "homepage": "https://tilsonmateus.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
